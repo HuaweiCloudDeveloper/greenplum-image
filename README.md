@@ -1,50 +1,17 @@
-<p align="center">
-  <h1 align="center">Greenplum distributed database</h1>
-  <p align="center">
-    <a href="README_ZH.md"><strong>简体中文</strong></a> | <strong>English</strong>
-  </p>
-</p>
+# Flink-1.17.0-kunpeng
 
-## Table of Contents
+## 规格说明
 
-- [Repository Introduction](#repository-introduction)
-- [Prerequisites](#prerequisites)
-- [Image Specifications](#image-specifications)
-- [Getting Help](#getting-help)
-- [How to Contribute](#how-to-contribute)
+- 镜像商品：[Flink-流数据分析工具](https://marketplace.huaweicloud.com/contents/992480da-64a3-4ba8-90cb-686d1832e96a#productid=OFFI1111485128289529856)
+- 镜像规格：Flink-1.17.0-kunpeng-HCE
+- 预置环境：Flink 1.17.0 + JDK 1.8
+- 适配项：[ECS](https://support.huaweicloud.com/ecs/index.html) + [GaussDB](https://support.huaweicloud.com/gaussdb/index.html)
+- CPU架构：ARM
+- 操作系统：Huawei Cloud EulerOS 2.0 64bit
+- 资源编排服务（RFS）：不涉及
 
-## Repository Introduction
+## 使用说明
 
-‌[Green‌plum](https://greenplum.org/) is an advanced, Massively Parallel Processing (MPP) data warehouse specifically designed for large-scale data analytics, machine learning, and business intelligence (BI) scenarios. Built on the PostgreSQL open-source database, it inherits robust SQL support and a powerful ecosystem of features.
+- 华为云云商店：[Flink-流数据分析工具使用指南](./docs/usage.md)
 
-**Core Features:**
-At the heart of Greenplum is its "massively parallel" architecture, which distributes computational tasks across hundreds of nodes to enable ultra-fast analytical queries on petabyte-scale datasets. It delivers a powerful, efficient, and cost-effective modern data warehouse and analytics platform for processing vast amounts of structured and semi-structured data.
-
-This project offers pre-configured [**Greenplum distributed database**](!!) images with Greenplum and its runtime environment pre-installed, along with deployment templates. Follow the guide to enjoy an "out-of-the-box" experience.
-
-> **System Requirements:**
->
-> - CPU: 2GHz or higher
-> - RAM: 4GB or more
-> - Disk: At least 40GB
-
-## Prerequisites
-
-[Register a Huawei account and activate Huawei Cloud](https://support.huaweicloud.com/usermanual-account/account_id_001.html)
-
-## Image Specifications
-
-
-| Image Version                                                                                                   | Description                                                     | Notes |
-| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- | ----- |
-| [Greenplum-7.1.0-kunpeng](https://github.com/HuaweiCloudDeveloper/greenplum-image/tree/Greenplum-7.1.0-kunpeng) | Deployed on Kunpeng servers with Huawei Cloud EulerOS 2.0 64bit |       |
-
-## Getting Help
-
-- Submit an [issue](https://github.com/HuaweiCloudDeveloper/greenplum-image/issues)
-- Contact Huawei Cloud Marketplace product support
-
-## How to Contribute
-
-- Fork this repository and submit a merge request.
-- Update README.md synchronously based on your open-source mirror information.
+更多问题可通过 [**issue**](https://github.com/HuaweiCloudDeveloper/Flink-image/issues) 或 **华为云云商店指定商品的服务支持** 与我们取得联系。
